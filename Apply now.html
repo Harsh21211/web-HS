@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - Hot Beans Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hot Beans Web</h1>
+        <p>Join Our Growing Team of Web Developers</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="company.html">Company Profile</a>
+        <a href="Trainee Profiles.html">Trainee Profiles</a>
+        <a href="Job Specification.html">Job Specification</a>
+        <a href="Apply now.html">Apply Now</a>
+        <a href="Courses.html">Courses</a>
+    </nav>
+    
+    <main>
+        <section class="section">
+            <h2>Apply Now</h2>
+            <p>We are always looking for talented web developers to join our team. If you're passionate about web development, fill out the form below to apply!</p>
+        </section>
+
+        <section class="section">
+            <h3>Job Application Form</h3>
+            <form action="submit_application.php" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+                <label for="portfolio">Portfolio URL</label>
+                <input type="url" id="portfolio" name="portfolio" placeholder="https://yourportfolio.com">
+
+                <label for="cover_letter">Cover Letter</label>
+                <textarea id="cover_letter" name="cover_letter" rows="6" placeholder="Write a short cover letter explaining why you're a good fit for the role" required></textarea>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hot Beans Web. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+      
